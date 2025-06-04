@@ -1,0 +1,5 @@
+bernoulli_p: 0.8
+dgp_name: rectangular
+feature_dim: 30
+n_samples: 2000
+n_ticks_per_ax_meshgrid: null

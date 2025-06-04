@@ -1,0 +1,10 @@
+algorithm_name: "UES* (time)"
+algorithm: "IES"
+# Core algorithm settings
+max_features: "sqrt"  # Options: "sqrt" for RF, null for bagging
+kappa: "mean_var"  # Options: "no_es", "mean_var", "1nn"
+
+# Early stopping parameters
+es_offset: 0  # Float value for early stopping offset
+estimate_noise_before_sampling: true  # Boolean for noise estimation timing
+ues_time_track: true

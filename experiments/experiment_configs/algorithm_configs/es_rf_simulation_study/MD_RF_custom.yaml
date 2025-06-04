@@ -1,0 +1,8 @@
+algorithm: "MD_custom"
+# Core algorithm settings
+max_features: "sqrt"  # Options: "sqrt" for RF, null for bagging
+kappa: "no_es"
+estimate_noise_before_sampling: true
+es_offset: 0
+
+

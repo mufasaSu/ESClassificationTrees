@@ -1,0 +1,3 @@
+algorithm: "MD_scikit"
+# Core algorithm settings
+max_features: "sqrt"  # Options: "sqrt" for RF, null for bagging

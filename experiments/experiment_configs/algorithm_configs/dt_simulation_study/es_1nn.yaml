@@ -1,0 +1,5 @@
+algorithm: "es"
+max_depth:
+min_samples_split: 2
+kappa: "1nn"
+max_n_features: "all"

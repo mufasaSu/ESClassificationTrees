@@ -1,0 +1,5 @@
+algorithm: "ccp"
+max_depth:
+min_samples_split: 2
+max_n_features: "all"
+full_alpha_range: true 

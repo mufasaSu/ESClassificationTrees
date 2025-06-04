@@ -1,0 +1,3 @@
+Dataset,X Distribution,Original PostPrune Accuracy,New PostPrune Accuracy
+circular,Grid,0.686,0.686
+circular,Uniform,0.782,0.782

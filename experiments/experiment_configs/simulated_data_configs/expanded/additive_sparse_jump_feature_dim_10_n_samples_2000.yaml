@@ -1,0 +1,3 @@
+dgp_name: additive_sparse_jump
+feature_dim: 10
+n_samples: 2000

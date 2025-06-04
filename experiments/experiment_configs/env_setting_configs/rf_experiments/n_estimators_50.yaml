@@ -1,0 +1,3 @@
+n_estimators: 50
+random_state: 7
+mc_iter: 60
