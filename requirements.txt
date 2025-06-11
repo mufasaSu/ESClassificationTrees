@@ -4,3 +4,6 @@ pyyaml
 matplotlib
 statsmodels
 openml
+numpy
+pandas
+seaborn
