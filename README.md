@@ -94,7 +94,7 @@ To run a single simulation experiment, you can use the `dt_mc_study.py` script. 
 python scripts/conduct_mc_studies/dt_mc_study.py \
     --dgp_config experiments/experiment_configs/simulated_data_configs/standard/circular_feature_dim_2_n_samples_2000_bernoulli_p_0.8.yaml \
     --algorithm_config experiments/experiment_configs/algorithm_configs/dt_simulation_study/max_depth.yaml \
-    --env_config experiments/experiment_configs/env_setting_configs/dt_experiments/test.yaml
+    --env_config experiments/experiment_configs/env_setting_configs/dt_experiments/300_mc_runs.yaml
 ```
 
 ### Running a Group of Simulation Experiments
