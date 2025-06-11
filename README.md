@@ -104,13 +104,13 @@ You can run a group of experiments using the provided shell scripts in `experime
 First, make the script executable:
 
 ```bash
-chmod +x experiments/experiment_cmds/dt_simulations/test/test_dt_standard.sh
+chmod +x experiments/experiment_cmds/dt_simulations/full/dt_standard.sh
 ```
 
 Then, run the script:
 
 ```bash
-./experiments/experiment_cmds/dt_simulations/test/test_dt_standard.sh
+./experiments/experiment_cmds/dt_simulations/full/dt_standard.sh
 ```
 
 ## Analyzing the Results
