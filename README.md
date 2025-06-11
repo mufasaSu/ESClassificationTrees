@@ -94,7 +94,7 @@ To run a single Monte Carlo simulation, you can use the `dt_mc_study.py` script.
 python scripts/conduct_mc_studies/dt_mc_study.py \
     --dgp_config experiments/experiment_configs/simulated_data_configs/standard/circular_feature_dim_2_n_samples_2000_bernoulli_p_0.8.yaml \
     --algorithm_config experiments/experiment_configs/algorithm_configs/dt_simulation_study/max_depth.yaml \
-    --env_config experiments/experiment_configs/env_setting_configs/dt_experiments/60_mc_runs.yaml
+    --env_config experiments/experiment_configs/env_setting_configs/dt_experiments/test.yaml
 ```
 
 ### Running a Group of Experiments
@@ -104,13 +104,13 @@ You can run a group of experiments using the provided shell scripts in `experime
 First, make the script executable:
 
 ```bash
-chmod +x experiments/experiment_cmds/dt_simulations/full/dt_standard.sh
+chmod +x experiments/experiment_cmds/dt_simulations/test/test_dt_standard.sh
 ```
 
 Then, run the script:
 
 ```bash
-./experiments/experiment_cmds/dt_simulations/full/dt_standard.sh
+./experiments/experiment_cmds/dt_simulations/test/test_dt_standard.sh
 ```
 
 ## Analyzing the Results

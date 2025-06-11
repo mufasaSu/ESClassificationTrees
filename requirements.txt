@@ -1,7 +1,13 @@
-numpy
-pandas
 scikit-learn
+tqdm
 pyyaml
 matplotlib
+statsmodels
+
+numpy
+pandas
+
+pyyaml
+
 seaborn
 pytest 

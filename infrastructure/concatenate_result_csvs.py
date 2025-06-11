@@ -4,7 +4,7 @@ import argparse
 
 # Add flag at the beginning
 RATMIR = False
-
+MC_ITERATIONS = 300 # specify which experiment runs to keep
 
 def main(
     directory, folder_name, output_filename, average_type, average_type_provided=False
@@ -37,6 +37,8 @@ def main(
 
     # Concatenate the dataframes row-wise
     result_df = pd.concat(dfs, ignore_index=True)
+    # keep only rows where mc_iterations is 300
+    result_df = result_df[result_df["mc_iterations"] == MC_ITERATIONS]
 
     # Filter columns based on AVERAGE_TYPE
     if AVERAGE_TYPE == "mean" and RATMIR:

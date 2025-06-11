@@ -22,7 +22,3 @@ for dgp_config in "${dgp_configs[@]}"; do
     done
 done
 
-python infrastructure/concatenate_result_csvs.py \
-    --directory experiments/experiment_raw_results/dt_es_simulation_study \
-    --output_folder_name dt_es_simulation_study \
-    --output_file_name dt_mc_results
