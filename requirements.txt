@@ -7,3 +7,5 @@ openml
 numpy
 pandas
 seaborn
+jinja2
+imageio

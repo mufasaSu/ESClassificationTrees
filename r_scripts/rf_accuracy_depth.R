@@ -2,7 +2,6 @@
 library(ggplot2)
 library(dplyr)
 library(tidyr)
-setwd("/Users/musto/Documents/Masterarbeit/RandomForest")
 
 # Load and prepare data
 data_depth <- read.csv(file.path(getwd(), "experiments/experiment_analysis/rf_es_simulation_study/overview_csvs/scikit_rf_depth_vs_acc.csv"))
