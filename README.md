@@ -7,7 +7,7 @@ This repository contains the code for a master's thesis on a residual-based earl
 Decision trees are a popular machine learning algorithm, but they are prone to overfitting. Pruning methods are commonly used to counteract this. This work introduces a novel early stopping method for classification trees based on residuals, which aims to find a simpler and well-performing tree structure.
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="experiments/experiment_analysis/dt_es_simulation_study/plots/growing_images_w_boxes/rectangular_decision_boundaries_bestfs.gif" alt="Rectangular Decision Boundaries" style="width: 48%;">
+    <img src="experiments/experiment_analysis/dt_es_simulation_study/plots/growing_images_w_boxes/rectangular_decision_boundaries_breadthfs.gif" alt="Rectangular Decision Boundaries" style="width: 48%;">
     <img src="experiments/experiment_analysis/dt_es_simulation_study/plots/noise_intuition.gif" alt="Noise Intuition" style="width: 48%;">
 </div>
 
