@@ -4,7 +4,16 @@ This repository contains the code for a master's thesis on a residual-based earl
 
 ## Abstract
 
-Decision trees are a popular machine learning algorithm, but they are prone to overfitting. Pruning methods are commonly used to counteract this. This work introduces a novel early stopping method for classification trees based on residuals, which aims to find a simpler and well-performing tree structure.
+Novel early stopping methods for CART that extend residual-based
+early stopping from regression to classification tasks. While traditional post-pruning
+techniques such as cost-complexity pruning (CCP) effectively reduce overfitting, they are
+computationally demanding. Our pre-pruning approach addresses these challenges by
+mitigating overfitting with enhanced efficiency. 
+
+Extensive simulation studies and empirical
+analyses validate the method’s performance and robustness, and we further extend
+these techniques to random forests. The findings offer a promising pathway toward more
+efficient and adaptable tree-based machine learning models.
 
 <div style="display: flex; justify-content: space-between;">
     <img src="experiments/experiment_analysis/dt_es_simulation_study/plots/growing_images_w_boxes/rectangular_decision_boundaries_breadthfs.gif" alt="Rectangular Decision Boundaries" style="width: 48%;">
