@@ -1,3 +1,9 @@
+![Rectangular Decision Boundaries](experiments/experiment_analysis/dt_es_simulation_study/plots/growing_images_w_boxes/rectangular_decision_boundaries_bestfs.gif)
+
+![Noise Intuition](experiments/experiment_analysis/dt_es_simulation_study/plots/noise_intuition.gif)
+
+
+
 # Residual-Based Early Stopping for Classification Trees
 
 This repository contains the code for a master's thesis on a residual-based early stopping method for classification trees.

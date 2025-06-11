@@ -249,7 +249,7 @@ def compare_to_scikit_tree():
         max_depth=depth,
         min_samples_split=2,
         max_features=None,
-        random_state=7,  # Mit nem anderen random state, bricht es hier --> tie breaking 999, no breaking 7
+        random_state=9,  # Mit nem anderen random state, bricht es hier --> tie breaking 999, no breaking 7
     )
     scikit_tree.fit(X, y)
     print(f"Custom Depth: {tree.get_depth()} == {scikit_tree.get_depth()}")
