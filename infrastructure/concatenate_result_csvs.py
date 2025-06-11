@@ -116,8 +116,12 @@ def main(
         f"experiments/experiment_analysis/{folder_name}/overview_csvs",
         exist_ok=True,
     )
+    # result_df.to_csv(
+    #     f"experiments/experiment_analysis/{folder_name}/overview_csvs/{output_filename}_{file_suffix}.csv",
+    #     index=False,
+    # )
     result_df.to_csv(
-        f"experiments/experiment_analysis/{folder_name}/overview_csvs/{output_filename}_{file_suffix}.csv",
+        f"experiments/experiment_analysis/{folder_name}/overview_csvs/{output_filename}.csv",
         index=False,
     )
 
