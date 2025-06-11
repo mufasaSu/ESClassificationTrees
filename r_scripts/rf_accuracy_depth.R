@@ -129,7 +129,7 @@ plot_data <- function(data, es_data, nrow = NULL, ncol = NULL, title = "Train vs
 
 # Create and save the plot
 plot_2x4 <- plot_data(combined_data, data_es)
-ggsave("latex/thesis/images/rf_URES_star_depth_vs_accuracy.png", plot = plot_2x4, width = 15, height = 8, dpi = 600)
+ggsave("experiments/experiment_analysis/rf_es_simulation_study/plots/rf_URES_star_depth_vs_accuracy.png", plot = plot_2x4, width = 15, height = 8, dpi = 600)
 
 # Print plots
 print(plot_2x4)  # One plot with 2 rows, 4 columns
@@ -137,5 +137,5 @@ print(plot_2x4)  # One plot with 2 rows, 4 columns
 alg_prefix <- "rf_star"
 
 # Save the plots with dynamic filenames
-ggsave(sprintf("latex/thesis/images/%s%s_4.png", alg_prefix),
+ggsave(sprintf("experiments/experiment_analysis/rf_es_simulation_study/plots/%s%s_4.png", alg_prefix),
        plot = plot_2x4, width = 14.08, height = 8.67, dpi = 300)

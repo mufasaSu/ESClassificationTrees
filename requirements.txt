@@ -3,3 +3,4 @@ tqdm
 pyyaml
 matplotlib
 statsmodels
+openml

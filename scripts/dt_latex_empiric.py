@@ -52,7 +52,7 @@ latex_table += "\\bottomrule\n\\end{tabular}"
 print(latex_table)
 
 # Optionally save to file
-with open("latex/thesis/tables/dt_empirical_characteristics.tex", "w") as f:
+with open("experiments/experiment_analysis/dt_es_simulation_study/latex_tables/dt_empirical_characteristics.tex", "w") as f:
     f.write(latex_table)
 
 
